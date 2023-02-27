@@ -1,0 +1,113 @@
+{
+  "response" : [ {
+    "instanceType" : "timezone",
+    "instanceUuid" : "ff183c7c-a773-4b95-95d9-af82fc918055",
+    "namespace" : "global",
+    "type" : "timezone.setting",
+    "key" : "timezone.site",
+    "version" : 5,
+    "value" : [ "GMT" ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "snmp",
+    "instanceUuid" : "85d91f16-edf5-4615-8f03-11da538eed66",
+    "namespace" : "global",
+    "type" : "snmp.setting",
+    "key" : "snmp.trap.receiver",
+    "version" : 5,
+    "value" : [ {
+      "ipAddresses" : [ "" ],
+      "configureDnacIP" : true
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "interface",
+    "instanceUuid" : "505be3d5-8ff4-469a-8491-1c8c54c91102",
+    "namespace" : "global",
+    "type" : "interface.setting",
+    "key" : "interface.info",
+    "version" : 5,
+    "value" : [ {
+      "interfaceName" : "management",
+      "vlanId" : 0
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "eapfastauthority",
+    "instanceUuid" : "ccdd6ead-d890-4b01-a2cc-9546c50a6dcc",
+    "namespace" : "global",
+    "type" : "eapfast.authority",
+    "key" : "eapfast.authority.seeds",
+    "version" : 5,
+    "value" : [ {
+      "authorityId" : "CB29F71F5BCC3B16A491C714334B8023",
+      "seedKey" : "040A5AB9C377BF3D3D1D663656ABA4B96FE03D05F1525561DE17D8982429FA5DB137930555C941C5A1DAC829F396A0F605A8409CD082B40FE41662AE1772D985",
+      "seedId" : "19"
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "telemetry",
+    "instanceUuid" : "57727e89-be50-431e-b66b-29c18649502b",
+    "namespace" : "global",
+    "type" : "telemetry.setting",
+    "key" : "wireless.telemetry",
+    "version" : 0,
+    "value" : [ {
+      "telemetryEnabled" : true
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "syslog",
+    "instanceUuid" : "ed5d5ceb-13e0-4426-8026-2e29ec70d49a",
+    "namespace" : "global",
+    "type" : "syslog.setting",
+    "key" : "syslog.server",
+    "version" : 5,
+    "value" : [ {
+      "ipAddresses" : [ "" ],
+      "configureDnacIP" : true
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "netflow",
+    "instanceUuid" : "09472401-0f6a-4d58-86d5-7d004affa4cc",
+    "namespace" : "global",
+    "type" : "netflow.setting",
+    "key" : "netflow.collector",
+    "version" : 6,
+    "value" : [ {
+      "ipAddress" : "",
+      "port" : null,
+      "configureDnacIP" : false
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  }, {
+    "instanceType" : "wiredclient",
+    "instanceUuid" : "4987a8a0-6515-43d4-afb1-f9c5d2bd70d2",
+    "namespace" : "global",
+    "type" : "wiredclient.setting",
+    "key" : "wiredclient.ipdt",
+    "version" : 5,
+    "value" : [ {
+      "ipdtEnabled" : true
+    } ],
+    "groupUuid" : "-1",
+    "inheritedGroupUuid" : "",
+    "inheritedGroupName" : ""
+  } ],
+  "version" : "1.0"
+}
